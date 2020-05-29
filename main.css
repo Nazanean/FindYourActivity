@@ -1,0 +1,41 @@
+body {
+    color: #383d42;
+    background-color: #F5F5F5;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #745CFF;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    width: 25%;
+    margin-right: 30px;
+}
+
+#nav1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 2px;
+    background-color:#745CFF;
+    margin-right: 20px;
+    color: #FFFFFC;
+}
+
+#meet-the-team img{
+    width: 20%;  /* fit the image within the div */
+    margin: 15px 0;
+  }
+
+
+/* iframe {
+    align: center;
+}
