@@ -1,17 +1,18 @@
 body {
     color: #383d42;
-    background-color: #F5F5F5;
-    background-color: rgb(255, 255, 255);
+    background-color: #ecebf2;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    
 }
+
 
 h1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 50px;
-    color: #745CFF;
+    color: #3c3753; 
 }
+
 
 li {
     list-style: none;
@@ -23,19 +24,106 @@ li {
 #nav1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 30px;
-    margin: 0 2px;
-    background-color:#745CFF;
-    margin-right: 20px;
+    font-size: 20px;
+    margin: 0 0px;
+    background-color: #a29dbe;
+    margin-right: 0px;
     color: #FFFFFC;
 }
 
-#meet-the-team img{
-    width: 20%;  /* fit the image within the div */
-    margin: 15px 0;
-  }
 
 
-/* iframe {
-    align: center;
+iframe {
+  margin: auto;
+  width: 60%;
+  border: 15px solid white;
+  padding: 15px;
+  display: block;
+  background-color: #9dbebc;
 }
+
+
+.About {
+    text-align: center;
+    font-size: 20px;
+    display: block;   
+ margin-left: 8em;
+ margin-right: 8em;
+}
+
+
+      hr {
+        width: 85%;
+        border: 1.5px solid #be9db2;
+        border-radius: 70%;
+        
+      }
+
+
+     h2 {
+         text-align: center;
+         color:#a5be9d ;
+         font-family: 'Poppins', sans-serif;
+         font-size: 40px;
+     }
+
+     .countup {
+        text-align: center;
+        margin-top: 20px;
+        color: #be9db2;
+     }
+        .timeel
+            display: inline-block;
+            padding: 10px;
+            background: #151515;
+            margin: 0;
+            color: white;
+            min-width: 2.6rem;
+            margin-left: 13px;
+            border-radius: 10px 0 0 10px;
+          }
+
+          .countup span[class*="timeRef"] {
+            border-radius: 0 10px 10px 0;
+            margin-left: 0;
+            background: #e8c152;
+            color: black;
+          }
+
+     .days {
+         font-size: 20px;
+         text-align: center;
+         font-family: 'Open Sans', sans-serif;
+     }
+
+
+     .emotions {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+     }
+
+     .things {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-style: bold;
+
+     }
+     #nav2 {
+        text-align: center;
+        font-size: large;
+        margin: 0 2px;
+        margin-bottom: 0 0em;
+        background-color: #a29dbe ;
+     }
+
+     #container > div {
+         display: inline-block;  
+        }
+
+#container {
+    text-align: center;
+    margin: 0px auto;
+    width: 80%;
+}   
