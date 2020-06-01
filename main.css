@@ -47,6 +47,10 @@ li {
     color: #FFFFFC;
 }
 
+.navigationBar a {
+    color: #FFFFFC;
+}
+
 .greenBlock {
     background-color: #E2FADB;
     padding-bottom: 20px;
@@ -145,3 +149,38 @@ li {
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
+a {
+    text-decoration: none
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+    color: #76448A;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+
+#sections>div {
+    display: inline-block;
+}
+
+#sections {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    column-gap: 1px;
+    justify-content: space-between;
+}    
+   
