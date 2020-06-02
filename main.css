@@ -66,6 +66,19 @@ li {
     padding-bottom: 20px;
 }
 
+.actionButton {
+    background-color: #646865;
+    border: none;
+    border-radius: 2px;
+    color: #fffffb;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -132,11 +145,11 @@ li {
     color: #FDFFB6;
 }
 
-#container>div {
+.container>div {
     display: inline-block;
 }
 
-#container {
+.container {
     text-align: center;
     margin: 0px auto;
     width: 80%;
@@ -189,11 +202,11 @@ h3 {
     margin: 0px;
 }
 
-#sections>div {
+.content>div {
     display: inline-block;
 }
 
-#sections {
+.content {
     text-align: center;
     margin: 20px auto;
     width: 80%;
@@ -221,7 +234,7 @@ h3 {
 }
 
 input[type=submit] {
-    background-color:#646865;
+    background-color: #646865;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -234,4 +247,3 @@ input[type=submit] {
 input[type=text] {
     width: 300px;
 }
-
