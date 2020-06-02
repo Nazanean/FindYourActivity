@@ -95,6 +95,15 @@ li {
     margin-right: auto;
 }
 
+.siteText {
+    text-align: left;
+    font-size: 20px;
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .countup {
     text-align: center;
     margin-top: 20px;
@@ -231,6 +240,14 @@ h3 {
     width: 700px;
     margin-left: auto;
     margin-right: auto
+}
+
+.cfgButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 25px 25px;
 }
 
 input[type=submit] {
