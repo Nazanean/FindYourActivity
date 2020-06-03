@@ -1,274 +1,276 @@
-body {
-    margin: 0px;
-    background-color: #646865;
-    font-family: 'Poppins', sans-serif;
-}
-
-h1 {
-    text-align: center;
-    color: #535657;
-    font-family: 'Poppins', sans-serif;
-    font-size: 55px;
-    margin: 0px;
-    padding-top: 20px;
-    padding-bottom: 0px;
-}
-
-h2 {
-    text-align: center;
-    color: #535657;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    margin: 0px;
-    padding: 20px;
-}
-
-h4 {
-    text-align: center;
-    color: #535657;
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    margin: 0px;
-}
-
-li {
-    list-style: none;
-    display: inline;
-    margin-right: 30px;
-}
-
-.navigationBar {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: 20px;
-    margin: 0 0px;
-    background-color: #646865;
-    margin-right: 0px;
-    color: #FFFFFC;
-}
-
-.navigationBar a {
-    color: #FFFFFC;
-}
-
-.greenBlock {
-    background-color: #E2FADB;
-    padding-bottom: 20px;
-}
-
-.whiteBlock {
-    background-color: #ffffff;
-    padding-bottom: 20px;
-}
-
-.pinkBlock {
-    background-color: #FFE4F3;
-    padding-bottom: 20px;
-}
-
-button {
-    cursor: pointer;
-}
-
-.actionButton {
-    background-color: #646865;
-    border: none;
-    /* border-radius: 2px; */
-    color: #fffffb;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.2s;
-}
-
-.wildcardButton {
-    background-color: #fffffb;
-    border: none;
-    color: #646865;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 35px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.2s;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.about {
-    text-align: center;
-    font-size: 20px;
-    display: block;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.siteText {
-    text-align: left;
-    font-size: 20px;
-    display: block;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.countup {
-    text-align: center;
-    margin-top: 20px;
-    color: 423E3B;
-}
-
-.timeel {
-    display: inline-block;
-    padding: 10px;
-    background: #646865;
-    margin: 0;
-    color: #FFFFFB;
-    min-width: 2.6rem;
-    margin-left: 13px;
-    border-radius: 10px 0 0 10px;
-}
-
-.countup span[class*="timeRef"] {
-    border-radius: 0 10px 10px 0;
-    margin-left: 0;
-    background: #DAC4F7;
-    color: #FFFFFB;
-}
-
-.timeInLockdown {
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: #646865;
-}
-
-.things {
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-style: bold;
-}
-
-.socialMediaNavBar {
-    text-align: center;
-    font-size: large;
-    margin: 0 2px;
-    margin-bottom: 0 0px;
-    background-color: #646865;
-}
-
-.socialMediaNavBar a {
-    color: #FDFFB6;
-}
-
-.container>div {
-    display: inline-block;
-}
-
-.container {
-    text-align: center;
-    margin: 0px auto;
-    width: 80%;
-}
-
-.footer {
-    text-align: center;
-    color: #E2FADB;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-
-.button {
-    background-color: #646865;
-    border: none;
-    border-radius: 2px;
-    color: #fffffb;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.2s;
-}
-
-.button:hover {
-    background-color: #ffffff;
-    color: #646865;
-}
-
-a {
-    text-decoration: none
-}
-
-.description {
-    text-align: center;
-    font-size: 20px;
-    display: block;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.content>div {
-    display: inline-block;
-}
-
-.content {
-    text-align: center;
-    margin: 20px auto;
-    width: 80%;
-    display: flex;
-    column-gap: 1px;
-    justify-content: space-between;
-}
-
-.contact {
-    text-align: center;
-    font-size: 20px;
-    display: block;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form {
-    text-align: center;
-    font-size: 20px;
-    display: block;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.cfgButton {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 25px 25px;
-}
-
-input[type=submit] {
-    background-color: #646865;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 300px;
-}
-
-input[type=text] {
-    width: 300px;
-}
+    body {
+        margin: 0px;
+        background-color: #646865;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #535657;
+        font-family: 'Poppins', sans-serif;
+        font-size: 55px;
+        margin: 0px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #535657;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        margin: 0px;
+        padding: 20px;
+    }
+    
+    h4 {
+        text-align: center;
+        color: #535657;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        margin: 0px;
+    }
+    
+    li {
+        list-style: none;
+        display: inline;
+        margin-right: 30px;
+    }
+    
+    .navigationBar {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin: 0 0px;
+        background-color: #646865;
+        margin-right: 0px;
+        color: #FFFFFC;
+    }
+    
+    .navigationBar a {
+        color: #FFFFFC;
+    }
+    
+    .greenBlock {
+        background-color: #E2FADB;
+        padding-bottom: 20px;
+    }
+    
+    .whiteBlock {
+        background-color: #ffffff;
+        padding-bottom: 20px;
+    }
+    
+    .pinkBlock {
+        background-color: #FFE4F3;
+        padding-bottom: 20px;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+    
+    .actionButton {
+        background-color: #646865;
+        border: none;
+        color: #fffffb;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.2s;
+    }
+    
+    .wildcardButton {
+        background-color: #E2FADB;
+        border: 3px solid #646865;
+        border-radius: 2px;
+        color: #646865;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 35px;
+        margin: 4px 2px;
+        transition: 0.2s;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .mainImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+    
+    .siteText {
+        font-size: 20px;
+        display: block;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+    .description {
+        text-align: center;
+        font-size: 20px;
+        display: block;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+    .countup {
+        text-align: center;
+        margin-top: 20px;
+        color: 423E3B;
+    }
+    
+    .timeel {
+        display: inline-block;
+        padding: 10px;
+        background: #646865;
+        margin: 0;
+        color: #FFFFFB;
+        min-width: 2.6rem;
+        margin-left: 13px;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .countup span[class*="timeRef"] {
+        border-radius: 0 10px 10px 0;
+        margin-left: 0;
+        background: #DAC4F7;
+        color: #FFFFFB;
+    }
+    
+    .timeInLockdown {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #646865;
+    }
+    
+    .things {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-style: bold;
+    }
+    
+    .socialMediaNavBar {
+        text-align: center;
+        font-size: large;
+        margin: 0 2px;
+        margin-bottom: 0 0px;
+        background-color: #646865;
+    }
+    
+    .socialMediaNavBar a {
+        color: #FDFFB6;
+    }
+    
+    .container>div {
+        display: inline-block;
+    }
+    
+    .container {
+        text-align: center;
+        margin: 0px auto;
+        width: 80%;
+    }
+    
+    .footer {
+        text-align: center;
+        color: #E2FADB;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    
+    .button {
+        background-color: #646865;
+        border: none;
+        border-radius: 2px;
+        color: #fffffb;
+        padding: 15px 25px;
+        text-align: center;
+        width: max-content;
+        font-size: 16px;
+        margin: 4px 2px;
+        display: inline-block;
+        opacity: 0.6;
+        transition: 0.2s;
+    }
+    
+    .button:hover {
+        background-color: #ffffff;
+        color: #646865;
+    }
+    
+    a {
+        text-decoration: none
+    }
+    
+    .content>div {
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    .content {
+        text-align: center;
+    }
+    
+    .form {
+        text-align: center;
+        font-size: 20px;
+        display: block;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    
+    .iframe {
+        border: 3px solid #646865;
+        border-radius: 4px;
+        overflow: hidden;
+        background: #fff;
+        color: #646865;
+    }
+    
+    .iframe iframe {
+        border: 0;
+        display: block;
+    }
+    
+    input[type=submit] {
+        background-color: #646865;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 300px;
+    }
+    
+    input[type=text] {
+        width: 300px;
+    }
+    
+    @media only screen and (min-width: 600px) {
+        .iframe iframe {
+            width: 500px;
+            height: 300px;
+        }
+    }
