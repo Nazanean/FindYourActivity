@@ -26,3 +26,21 @@ function countUpFromTime(countFrom, id) {
     clearTimeout(countUpFromTime.interval);
     countUpFromTime.interval = setTimeout(function() { countUpFromTime(countFrom, id); }, 1000);
 }
+
+function toggleWildcardContent() {
+    var toggleWildcardButton = document.getElementById("toggleWildcardButton");
+    var wildcardContent = document.getElementById("wildcardContent");
+
+    if (wildcardContent.style.display === "none") {
+        wildcardContent.style.display = "block";
+        toggleWildcardButton.innerHTML = "Hide wildcard activity";
+    } else {
+        wildcardContent.style.display = "none";
+        toggleWildcardButton.innerHTML = "Show wildcard activity";
+    }
+}
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById("toggleWildcardButton").onclick = toggleWildcardContent;
+    toggleWildcardContent();
+})
