@@ -23,6 +23,15 @@
         padding: 20px;
     }
     
+    h3 {
+        text-align: center;
+        color: #535657;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        margin: 0px;
+        padding: 20px;
+    }
+    
     h4 {
         text-align: center;
         color: #535657;
@@ -159,13 +168,6 @@
         text-align: center;
         font-family: 'Poppins', sans-serif;
         color: #646865;
-    }
-    
-    .things {
-        font-size: 30px;
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        font-style: bold;
     }
     
     .socialMediaNavBar {
