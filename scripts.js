@@ -4,6 +4,11 @@ window.onload = function() {
 };
 
 function countUpFromTime(countFrom, id) {
+    var idEl = document.getElementById(id);
+    if (!idEl) {
+        return;
+    }
+
     countFrom = new Date(countFrom).getTime();
     var now = new Date(),
         countFrom = new Date(countFrom),
@@ -17,7 +22,6 @@ function countUpFromTime(countFrom, id) {
     mins = Math.floor(((timeDifference % (secondsInADay)) % (secondsInAHour)) / (60 * 1000) * 1);
     secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
 
-    var idEl = document.getElementById(id);
     idEl.getElementsByClassName('days')[0].innerHTML = days;
     idEl.getElementsByClassName('hours')[0].innerHTML = hours;
     idEl.getElementsByClassName('minutes')[0].innerHTML = mins;
@@ -41,6 +45,10 @@ function toggleWildcardContent() {
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementById("toggleWildcardButton").onclick = toggleWildcardContent;
-    toggleWildcardContent();
+    var toggleWildcardButton = document.getElementById("toggleWildcardButton")
+
+    if (toggleWildcardButton) {
+        toggleWildcardButton.onclick = toggleWildcardContent;
+        toggleWildcardContent();
+    }
 })
