@@ -143,21 +143,23 @@
         text-align: center;
         margin-top: 20px;
         color: 423E3B;
+        font-size: x-small;
     }
     
     .timeel {
         display: inline-block;
         padding: 10px;
         background: #646865;
-        margin: 0;
+        margin: 10;
         color: #FFFFFB;
-        min-width: 2.6rem;
+        max-width: 15px;
         margin-left: 13px;
-        border-radius: 10px 0 0 10px;
+        border-radius: 5px 0 0 5px;
     }
     
     .countup span[class*="timeRef"] {
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 5px 5px 0;
+        max-width: 60px;
         margin-left: 0;
         background: #DAC4F7;
         color: #FFFFFB;
