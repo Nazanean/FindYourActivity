@@ -152,15 +152,15 @@
         background: #646865;
         margin: 10;
         color: #FFFFFB;
-        max-width: 15px;
-        margin-left: 13px;
+        max-width: 8px;
+        margin-left: 0px;
         border-radius: 5px 0 0 5px;
     }
     
     .countup span[class*="timeRef"] {
         border-radius: 0 5px 5px 0;
-        max-width: 60px;
-        margin-left: 0;
+        max-width: 50px;
+        margin-left: 7;
         background: #DAC4F7;
         color: #FFFFFB;
     }
