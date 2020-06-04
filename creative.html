@@ -8,6 +8,7 @@
     <title>Activity Finder</title>
     <!-- CSS Sheet -->
     <link rel="stylesheet" href="main.css">
+    <!-- Javascript -->
     <script src="scripts.js"></script>
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -31,7 +32,7 @@
         <!-- Gif and Title -->
 
         <div class="whiteBlock">
-            <h1>Feeling Creative?</h1>
+            <h1>Creative</h1>
             <img src="painting.gif" class="center" width="50">
             <div>
                 <p class="description"> Need some inspiration? Here are some ideas to get your creative juices flowing </p>
@@ -41,20 +42,22 @@
         <!-- Art -->
 
         <div class="greenBlock">
-            <h2>For Even the Amateur Artist</h2>
+            <h2>For the Amateur Artist</h2>
 
             <div class="content">
 
-                <div>
-                    <iframe width="500" height="300" src="https://www.youtube.com/embed/VjCGJb5ltZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="iframe">
+                    <iframe src="https://www.youtube.com/embed/VjCGJb5ltZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3>Arylic Oceans</h3>
                 </div>
 
-                <div>
-                    <iframe width="500" height="300" src="https://www.youtube.com/embed/sBoVGqiSzr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="iframe">
+                    <iframe src="https://www.youtube.com/embed/sBoVGqiSzr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3>Calligraphy</h3>
                 </div>
+
             </div>
+        </div>
 
             <!-- DIY -->
 
@@ -62,16 +65,36 @@
                 <h2>For the DIY Lover</h2>
 
                 <div class="content">
-                    <div>
-                        <iframe width="500" height="300" src="https://www.youtube.com/embed/sdWsE_y7TJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="iframe">
+                        <iframe src="https://www.youtube.com/embed/sdWsE_y7TJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h3>Terrariums</h3>
                     </div>
 
-                    <div>
-                        <iframe width="500" height="300" src="https://www.youtube.com/embed/mlQd9FqzM1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="iframe"> 
+                        <iframe src="https://www.youtube.com/embed/mlQd9FqzM1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h3>Home Decor</h3>
                     </div>
                 </div>
+            </div>    
+
+            <div class="whiteBlock">
+            <h2>Are you interested in a wildcard activity?</h2>
+            <div class="content">
+                <button id="toggleWildcardButton" class="wildcardButton center"></button>
+            </div>
+            <div id="wildcardContent" class="content">
+                <div>
+                    <p class="description">Here's a funny story about a couple who made a tiny art gallery for their gerbils. Tap on the picture below to read the full story.
+                        <a href="https://www.buzzfeednews.com/article/laurenstrapagiel/tiny-art-gallery-for-gerbils">
+                            <img src="artgallery.png" class="mainImage">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
 
     </main>
 
